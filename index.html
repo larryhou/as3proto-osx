@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="As3proto-osx : protobuf for Actionscript 3.0 on OSX platform" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>As3proto-osx</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/larryhou/as3proto-osx">View on GitHub</a>
+
+          <h1 id="project_title">As3proto-osx</h1>
+          <h2 id="project_tagline">protobuf for Actionscript 3.0 on OSX platform</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/larryhou/as3proto-osx/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/larryhou/as3proto-osx/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>as3proto-osx</h1>
+
+<hr><h3>protobuf for Actionscript 3 on OSX platform</h3>
+
+<p>该项目搭建了AS3 protobuf所需的Windows运行环境以及AS3类库，整合了Google <a href="http://code.google.com/p/protobuf/" title="[v2.3.0] http://code.google.com/p/protobuf/">protobuf</a>和<a href="http://code.google.com/p/protobuf-actionscript3/" title="http://code.google.com/p/protobuf-actionscript3/">protobuf-actionscript3</a>第三方插件资源</p>
+
+<h3>使用方法</h3>
+
+<ol>
+<li>
+<h5>编译安装protoc命令行</h5>
+
+<p>在<strong>Terminal</strong>里面进入<strong>sdk</strong>目录，运行下面脚本</p>
+
+<pre><code>./configure
+make
+make check
+sudo make install
+</code></pre>
+</li>
+<li>
+<h5>使用protoc生成代码</h5>
+
+<pre><code>protoc --proto_path=proto --as3_out=output proto/hello.proto
+</code></pre>
+</li>
+</ol>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">As3proto-osx maintained by <a href="https://github.com/larryhou">larryhou</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
