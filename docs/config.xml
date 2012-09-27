@@ -1,0 +1,24 @@
+<!-- 
+ If you need Flash Player 9 support, change the path below to something more 
+ appropriate for your SDK and/or Player version
+-->
+
+<flex-config>   
+   <compiler>
+	   <strict>false</strict>
+	   
+	   <source-path>
+		   <path-element>../src</path-element>
+	   </source-path>
+   </compiler>
+   
+   <doc-sources append="true">
+	   <path-element>../src/com/google</path-element>
+   </doc-sources>
+   
+   <exclude-sources>
+	   <path-element>../src/com/hurlant</path-element>
+   </exclude-sources>
+   
+   <output>assets</output>
+</flex-config>

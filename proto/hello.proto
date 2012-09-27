@@ -1,0 +1,9 @@
+message HelloWorld{
+	optional int32 code = 1;
+	optional string name = 2;
+	optional Info info = 3;
+
+	message Info{
+		optional string version = 1;
+	}
+}
