@@ -39,7 +39,14 @@
 	使用文本编辑器打开**protobuf.sh**文件
 	* 把**OUTPUT_DIR**设置成AS3保存目录，支持绝对目录、相对目录
 	* 把**PROTO_DIR**设置成\*.proto文件存储目录   
-	  
+	
+	在**Terminal**里面进入**protobuf.sh**所在目录，运行  
+	
+	```
+	sh protobuf.sh
+	```
+	
+	在**OUTPUT_DIR**里面就可以得到相应的AS3代码  
 	```
 	- - - - - - - - - - - - -
 	Type proto file name:
