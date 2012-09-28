@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # folder with proto files
-PROTO_DIR=proto
+PROTO_DIR=../proto
 
 # folder for AS3 code saving
-OUTPUT_DIR=output
+OUTPUT_DIR=../output
 
 
 
