@@ -41,12 +41,12 @@
 	* 把**PROTO_DIR**设置成\*.proto文件存储目录   
 	  
 	```
-	\- - - - - - - - - - - - -
+	- - - - - - - - - - - - -
 	Type proto file name:
 	hello
 
 	-> proto/hello.proto
-	\- - - - -
+	- - - - -
 
 	DONE! Press ENTER key to continue...
 
