@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # folder with proto files
 PROTO_DIR=proto
