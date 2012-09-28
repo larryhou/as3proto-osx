@@ -2,7 +2,7 @@
 ------------
 
 ### protobuf for Actionscript 3 on OSX platform
-该项目搭建了AS3 protobuf所需的Windows运行环境以及AS3类库，整合了Google [protobuf][1]和[protobuf-actionscript3][2]第三方插件资源
+该项目搭建了**AS3 protobuf**所需的 **MAC OSX** 运行环境以及**AS3**类库，整合了**Google [protobuf][1]**和**[protobuf-actionscript3][2]**第三方插件资源
 [1]: http://code.google.com/p/protobuf/ "[v2.3.0] http://code.google.com/p/protobuf/"
 [2]: http://code.google.com/p/protobuf-actionscript3/ "http://code.google.com/p/protobuf-actionscript3/"
 
