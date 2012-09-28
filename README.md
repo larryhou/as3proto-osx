@@ -16,8 +16,26 @@
 	sudo make install
 	```
 	
-2. #####使用protoc生成代码
+2. #####检查protobuf是否安装成功
+	在Terminal中输入，回车
+	```
+	protoc --help
+	```
 	
+	检查一下帮助内容是否包含**--as3_out**选项
+	```
+    --as3_out=OUT_DIR           Generate ActionScript source file.
+    --cpp_out=OUT_DIR           Generate C++ header and source.
+    --java_out=OUT_DIR          Generate Java source file.
+    --python_out=OUT_DIR        Generate Python source file.
+	```
+	
+3. #####使用命令行生成AS3代码	
 	```
 	protoc --proto_path=proto --as3_out=output proto/hello.proto
 	```
+	
+4. #####使用protobuf.sh快速代码生成
+	使用文本编辑器打开**protobuf.sh**文件
+	* 把**OUTPUT_DIR**设置成AS3保存目录，支持绝对目录、相对目录
+	* 把**PROTO_DIR**设置成\*.proto文件存储目录
