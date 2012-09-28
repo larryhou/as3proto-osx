@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # folder with proto files
 PROTO_DIR=proto
@@ -39,7 +39,7 @@ do
 	then
 		echo -\> $PROTO_FILE
 	else
-		echo $PROTO_FILE does not exist, press any key to try again...
+		echo $PROTO_FILE does not exist, press ENTER key to try again...
 		read pause
 		continue
 	fi
@@ -59,6 +59,6 @@ do
 	protoc --proto_path=$PROTO_DIR --as3_out=$OUTPUT_DIR $PROTO_FILE
 	
 	# enter another loop
-	echo DONE! Press any key to continue...
+	echo DONE! Press ENTER key to continue...
 	read pause
 done
