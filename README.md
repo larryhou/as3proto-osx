@@ -39,3 +39,16 @@
 	使用文本编辑器打开**protobuf.sh**文件
 	* 把**OUTPUT_DIR**设置成AS3保存目录，支持绝对目录、相对目录
 	* 把**PROTO_DIR**设置成\*.proto文件存储目录
+	```
+	- - - - - - - - - - - - -
+	Type proto file name:
+	hello
+
+	-> proto/hello.proto
+	- - - - -
+
+	DONE! Press ENTER key to continue...
+
+	```
+
+	
