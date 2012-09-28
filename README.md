@@ -54,7 +54,7 @@
 
 	DONE! Press ENTER key to continue...
 
-	``
+	```
 	
 	在**OUTPUT_DIR**里面就可以得到相应的AS3代码  
 	```actionscript
