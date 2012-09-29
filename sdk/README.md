@@ -88,3 +88,30 @@
 		  --cpp_out=OUT_DIR           Generate C++ header and source.
 		  --java_out=OUT_DIR          Generate Java source file.
 		  --python_out=OUT_DIR        Generate Python source file.
+
+## 3. 使用 protobuf 生成AS3代码
+* 直接使用命令行
+  
+		protoc --proto_path=[proto path] --as3_out=[folder for as3 saving] [proto file]
+		
+* 使用 **protobuf.bat** 生成
+  
+	进入**sdk**目录，打开**setup.bat**文件，初始化一下配置
+	+ 把**PROTO_DIR**修改为**\*.proto**文件的存储目录
+	+ 把**OUTPUT_DIR**修改为生成**AS3**代码的输出目录
+	
+	其实在默认配置下，直接运行**protobuf.bat**输入hello既可以在**OUTPUT_DIR**目录生成实例代码
+	
+		----------------------------
+		Type proto file name:
+		hello
+
+		... ... ...
+
+		D:\C++\as3proto-osx\sdk>protoc --proto_path="..\proto" --as3_out="..\output" "..\proto\hello.proto"
+
+		DONE! Press any key to process another proto file...
+
+		
+	
+
