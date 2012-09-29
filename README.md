@@ -8,9 +8,10 @@
 
 ### 使用方法
 1. #####编译安装protoc命令行    
-	在**Terminal**里面进入**sdk**目录，运行下面脚本
+	在**Terminal**里面进入**sdk/project**目录，运行下面脚本
 	```
 	./configure
+	
 	make
 	make check
 	sudo make install
@@ -38,7 +39,7 @@
 4. #####使用protobuf.sh快速代码生成
 	使用文本编辑器打开**protobuf.sh**文件
 	* 把**OUTPUT_DIR**设置成AS3保存目录，支持绝对目录、相对目录
-	* 把**PROTO_DIR**设置成\*.proto文件存储目录   
+	* 把**PROTO_DIR**设置成**\*.proto**文件存储目录   
 	
 	在**Terminal**里面进入**protobuf.sh**所在目录  
 	
