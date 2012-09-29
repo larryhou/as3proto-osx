@@ -6,8 +6,6 @@ cls
 call setup.bat
 
 rem DO NOT MODIFY IT
-rem Make a directory for output if not exist
-if not exist "%OUTPUT_DIR%" mkdir "%OUTPUT_DIR%"
 
 :LOOP
 
@@ -30,6 +28,9 @@ if not exist "%PROTO_FILE%" (
 
 echo\
 echo ... ... ...
+
+rem Make a directory for output if not exist
+if not exist "%OUTPUT_DIR%" mkdir "%OUTPUT_DIR%"
 
 @echo on
 @rem Generate AS3 code from *.proto file
