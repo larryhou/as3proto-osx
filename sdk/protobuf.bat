@@ -6,8 +6,6 @@ cls
 call setup.bat
 
 rem DO NOT MODIFY IT
-set PROTOC=%SDK%\protoc.exe
-
 rem Make a directory for output if not exist
 if not exist "%OUTPUT_DIR%" mkdir "%OUTPUT_DIR%"
 
@@ -35,7 +33,7 @@ echo ... ... ...
 
 @echo on
 @rem Generate AS3 code from *.proto file
-%PROTOC% --proto_path="%PROTO_DIR%" --as3_out="%OUTPUT_DIR%" "%PROTO_FILE%"
+protoc --proto_path="%PROTO_DIR%" --as3_out="%OUTPUT_DIR%" "%PROTO_FILE%"
 @echo off
 
 echo\
