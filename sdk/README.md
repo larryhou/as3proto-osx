@@ -6,7 +6,7 @@
 
 ## 1. 安装[MinGW][2]  
 * 下载**[mingw-get installer][3]**最新版本，保持默认配置一路“**Next**”直至安装完成
-* 把安装目录**C:\MinGW\bin**添加PATH环境变量，注销电脑重新进入系统
+* 把安装目录**C:\MinGW\bin**添加**PATH**环境变量，注销电脑重新进入系统
 * 打开命令提示符运行  
   	
 		mingw-get install gcc g++ mingw32-make msys-base
