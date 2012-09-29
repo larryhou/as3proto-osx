@@ -25,7 +25,7 @@
 	
 ## 2. 编译安装 protobuf 命令行
 * **CD**到源码目录
-    
+  
 	如果源码在**D:/as3proto-osx/sdk/src**目录，需要使用
   
 		cd /d/as3proto-osx/sdk/src
@@ -39,6 +39,7 @@
 		make install
 	
 * 检查是否安成功
+  
 	打开命令提示符，输入
   
 		protoc --help
